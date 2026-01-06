@@ -1,1 +1,2 @@
 # Blockchain
+This python programme creates a blockchain using SHA-256 hashing. The calculate_hash() method combines all the block's information into a single string and runs it through the SHA-256 algorithm. Even a tiny change in the data will result in a completely different hash. Each block stores the previous block’s hash, creating a mathematical chain. If data is tampered with, the hashes mismatch, breaking the chain. The method ensures integrity by verifying these links and recalculated hashes.
